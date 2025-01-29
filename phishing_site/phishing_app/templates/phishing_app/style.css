@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    gap: 40px;
+}
+
+.insta__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    max-width: 400px;
+    width: 300px;
+    background-color: #ECF3FF;
+    border: 0;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    color: #666;
+}
+
+button {
+    max-width: 400px;
+    width: 300px;
+    background-color: #3578E5;
+    border: 0;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.or {
+    font-size: 14px;
+    font-weight: 600;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.or::before {
+    content: '';
+    position: absolute;
+    background-color: #666;
+    height: 1px;
+    bottom: 7px;
+    left: 20px;
+    width: 100px;
+}
+
+.or::after {
+    content: '';
+    position: absolute;
+    background-color: #666;
+    height: 1px;
+    bottom: 7px;
+    right: 20px;
+    width: 100px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #385185;
+    cursor: pointer;
+}
+
+h3 i {
+    font-size: 22px;
+}
+
+.forget{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #385185;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f7f7f7; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+footer p {
+    margin: 0;
+
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #202020;
+    font-weight: 100;
+    font-size: small;
+    padding: 6px;
+    margin-bottom: 4px;
+}
+
+.footer-lang{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    margin-top: 20px;
+
+}
+
+.footer-lang span{
+    padding: 10px;
+    color: #202020;
+    font-weight: 100;
+    font-size: small;
+    padding: 6px;
+    margin-bottom: 4px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid #ccc; /* Add a border around the login form */
+    padding: 40px; /* Add padding to give space around the content */
+    /* border-radius: 10px; Optional: Rounded corners for the border */
+}
+
+
+.signup-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f7f7f7;    */
+    padding: 10px 20px;
+    /* text-align: center; */
+    /* border-radius: 8px; */
+    width: 100%;
+    /* max-width: 350px; You can adjust the width */
+    height: 60px;
+    border: 1px solid #ccc;
+}
+
+.signup-box p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.signup-box a {
+    color: #3578E5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
+
+.get-the-app {
+    text-align: center;
+    width: 100%;
+    /* max-width: 350px; Adjust width as needed */
+    /* margin-top: 4px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers content horizontally */
+    /* gap: 20px; */
+}
+
+.get-the-app h3 {
+    /* font-size: 16px; */
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.app-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.app-images img {
+    width: auto;          /* Maintain natural width */
+    height: 45px;         /* Set a fixed height for both images */
+    max-width: 100%;      /* Ensure the image won't overflow the container */
+    cursor: pointer;
+}
+
+
+.app-images img:hover {
+    opacity: 0.8; /* Optional: Hover effect for the images */
+}
+
+
+
+
+
+
+@media (max-width:764px) {
+    .image__login{
+        display: none;
+    }
+}
